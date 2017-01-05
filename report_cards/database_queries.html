@@ -1,0 +1,21 @@
+---
+layout: page
+title: Database Queries
+permalink: /report-cards/database-queries
+skills:
+- Uses appropriate column types (e.g. integer enums instead of strings)
+- Consistently sets NOT NULL constraints where appropriate
+- Consistently sets default values where appropriate
+- Consistently adds indexes where appropriate
+- Consistently creates foreign keys
+- Ensures both `up` and `down` migrations work (even when using `change`)
+- Uses joins and `.include` to prevent N+1 query issues
+- Uses sum, count, and windowing functions to perform aggregation in the database
+- Is comfortable using the PostgreSQL console (`rails db`)
+- Is comfortable troubleshooting slow queries using `EXPLAIN ANALYZE`
+- Always returns user-facing results ordered deterministically
+- Uses BIGINT id for tables that could grow past 1 million records
+---
+
+{% include_relative tasks.html %}
+

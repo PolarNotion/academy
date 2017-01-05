@@ -1,0 +1,20 @@
+<table class="table">
+  <tr>
+    <th class="text-center">
+      <i title="In-progress" class="glyphicon glyphicon-refresh"></i>
+    </th>
+    <th class="text-center">
+      <i title="Mastered" class="glyphicon glyphicon-ok"></i>
+    </th>
+    <th>Skill</th>
+  </tr>
+
+  {% for skill in page.skills %}
+    <tr>
+      <td class="text-center text-muted">▢</td>
+      <td class="text-center text-muted">▢</td>
+      <td>{{skill}}</td>
+    </tr>
+  {% endfor %}
+</table>
+

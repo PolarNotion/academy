@@ -1,0 +1,14 @@
+---
+layout: page
+title: Mailers & Workers
+permalink: /report-cards/mailers-and-workers
+skills:
+- Does not pass ActiveRecord/ruby objects into `perform_async` (passes ids instead)
+- Tests mailers using rspec and letter_opener gem
+- Includes both HTML and text versions of mailer templates to maximize email client-compatibility
+- Uses inline styles in mailers to maximize email client-compatibility
+- Uses workers to offload complex and computationally expensive logic
+---
+
+{% include_relative tasks.html %}
+

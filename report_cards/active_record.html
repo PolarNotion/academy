@@ -1,0 +1,19 @@
+---
+layout: page
+title: ActiveRecord
+permalink: /report-cards/active-record
+skills:
+- Designs objects/relations appropriately
+- Follows Rails conventions consistently
+- Adds validations for all database constraints (presence, uniqueness, field length, etc)
+- Customizes error messages, warnings, and alerts as appropriate
+- Shows preference for ActiveRecord queries instead of in-memory calculations
+- Uses consistent/understandable method names consistent with ruby styleguide
+- Uses public/private methods appropriately
+- Uses transactions to prevent inconsistent data states
+- Uses `.include` (preferred) or custom sql (less preferred) to avoid N+1 query instances
+- Uses decorators/services etc to reduce size of monolithic models
+---
+
+{% include_relative tasks.html %}
+

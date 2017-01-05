@@ -1,0 +1,14 @@
+---
+layout: page
+title: Performance
+permalink: /report-cards/performance
+skills:
+- Prefers database queries over in-memory data calculations
+- Prefers `.pluck` over `.map` when returning one or more columns as an array
+- Uses `.find_each` instead of `.map` or `.each` when looping through more than 1000 results
+- Hits external APIs in background worker unless there is a compelling reason to hit them synchronously
+- Paginates long lists
+---
+
+{% include_relative tasks.html %}
+
