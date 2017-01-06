@@ -4,6 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 report_cards:
+- { slug: "version-control", title: "Version Control" }
 - { slug: "test-driven-development", title: "Test-Driven Development" }
 - { slug: "templating", title: "Templating" }
 - { slug: "routes-and-controllers", title: "Routes & Controllers" }
