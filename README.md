@@ -11,6 +11,6 @@ engineers.
 
 ```
 bundle exec jekyll serve
-open http://localhost:4000
+open http://localhost:4000/academy/
 ```
 
